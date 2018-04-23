@@ -5261,6 +5261,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Get Regex Entity request": {
+            "$ref": "./examples/model/SuccessfulGetRegexEntityInfoRequest.json"
+          }
         }
       },
       "put": {
@@ -5310,6 +5315,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Update Regex Entity request": {
+            "$ref": "./examples/model/SuccessfulUpdateRegexEntityModelRequest.json"
+          }
         }
       },
       "delete": {
@@ -5347,6 +5357,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Delete Regex Entity request": {
+            "$ref": "./examples/model/SuccessfulDeleteRegexEntityRequest.json"
+          }
         }
       }
     },
@@ -5377,7 +5392,7 @@
           "200": {
             "description": "A regex entity model info.",
             "schema": {
-              "$ref": "#/definitions/RegexEntityExtractor"
+              "$ref": "#/definitions/PatternAnyEntityExtractor"
             }
           },
           "default": {
@@ -5385,6 +5400,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Pattern.Any Entity request": {
+            "$ref": "./examples/model/SuccessfulGetPatternAnyEntityInfoRequest.json"
           }
         }
       },
@@ -5434,6 +5454,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Update Pattern.Any Entity request": {
+            "$ref": "./examples/model/SuccessfulUpdatePatternAnyEntityRequest.json"
           }
         }
       },

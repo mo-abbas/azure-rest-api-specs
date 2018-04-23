@@ -260,7 +260,7 @@
   "responses": {
     "201": {
       "headers": {
-        "Location": "https://api.luis.ai/api/v2.0/bd72e8d7-62b8-48f5-9dcb-e3b0588b803a/versions/0.2"
+        "Location": "https://westus.api.cognitive.microsoft.com/luis/api/v2.0/bd72e8d7-62b8-48f5-9dcb-e3b0588b803a/versions/0.2"
       },
       "body": "0.2"
     }
