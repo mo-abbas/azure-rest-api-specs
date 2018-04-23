@@ -46,7 +46,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/PatternFeatureCreateObject"
+              "$ref": "#/definitions/PatternCreateObject"
             },
             "description": "The Name and Pattern of the feature."
           }
@@ -315,7 +315,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/PatternFeatureUpdateObject"
+              "$ref": "#/definitions/PatternUpdateObject"
             },
             "description": "The new values for: - Just a boolean called IsActive, in which case the status of the feature will be changed. - Name, Pattern and a boolean called IsActive to update the feature."
           }
@@ -4391,6 +4391,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Get Entity Roles request": {
+            "$ref": "./examples/model/SuccessfulGetEntityRolesRequest.json"
+          }
         }
       },
       "post": {
@@ -4441,6 +4446,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Create Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreateEntityRoleRequest.json"
+          }
         }
       }
     },
@@ -4479,6 +4489,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Prebuilt Entity Roles request": {
+            "$ref": "./examples/model/SuccessfulGetPrebuiltEntityRolesRequest.json"
           }
         }
       },
@@ -4530,6 +4545,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Create Prebuilt Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreatePrebuiltEntityRoleRequest.json"
+          }
         }
       }
     },
@@ -4568,6 +4588,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Closed List Entity Roles request": {
+            "$ref": "./examples/model/SuccessfulGetClosedListEntityRolesRequest.json"
           }
         }
       },
@@ -4619,6 +4644,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Create Closed List Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreateClosedListEntityRoleRequest.json"
+          }
         }
       }
     },
@@ -4657,6 +4687,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Regex Entity Roles request": {
+            "$ref": "./examples/model/SuccessfulGetRegexEntityRolesRequest.json"
           }
         }
       },
@@ -4708,6 +4743,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Create Regex Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreateRegexEntityRoleRequest.json"
+          }
         }
       }
     },
@@ -4741,6 +4781,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Composite Entity Roles request": {
+            "$ref": "./examples/model/SuccessfulGetCompositeEntityRolesRequest.json"
           }
         }
       },
@@ -4787,6 +4832,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Create Composite Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreateCompositeEntityRoleRequest.json"
+          }
         }
       }
     },
@@ -4825,6 +4875,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Pattern.Any Entity Roles request": {
+            "$ref": "./examples/model/SuccessfulGetPatternAnyEntityRolesRequest.json"
           }
         }
       },
@@ -4876,6 +4931,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Create Pattern.Any Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreatePatternAnyEntityRoleRequest.json"
+          }
         }
       }
     },
@@ -4909,6 +4969,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Hierarchical Entity Roles request": {
+            "$ref": "./examples/model/SuccessfulGetHierarchicalEntityRolesRequest.json"
           }
         }
       },
@@ -4955,6 +5020,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Create Hierarchical Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreateHierarchicalEntityRoleRequest.json"
+          }
         }
       }
     },
@@ -4993,6 +5063,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Custom Prebuilt Entity Roles request": {
+            "$ref": "./examples/model/SuccessfulGetCustomPrebuiltEntityRolesRequest.json"
           }
         }
       },
@@ -5044,6 +5119,11 @@
               "$ref": "#/definitions/ErrorResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "Successful Create Custom Prebuilt Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreateCustomPrebuiltEntityRoleRequest.json"
+          }
         }
       }
     },
@@ -5082,6 +5162,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Get Explicit List request": {
+            "$ref": "./examples/model/SuccessfulGetPatternAnyExplicitListRequest.json"
           }
         }
       },
@@ -5131,6 +5216,11 @@
             "schema": {
               "$ref": "#/definitions/ErrorResponse"
             }
+          }
+        },
+        "x-ms-examples": {
+          "Successful Create Custom Prebuilt Entity Role request": {
+            "$ref": "./examples/model/SuccessfulCreatePatternAnyExplicitListRequest.json"
           }
         }
       }
@@ -6719,7 +6809,7 @@
             "description": "The input pattern.",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/PatternCreateObject"
+              "$ref": "#/definitions/PatternRuleCreateObject"
             }
           }
         ],
@@ -6799,7 +6889,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "$ref": "#/definitions/PatternUpdateObject"
+                "$ref": "#/definitions/PatternRuleUpdateObject"
               }
             }
           }
@@ -6843,7 +6933,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "$ref": "#/definitions/PatternCreateObject"
+                "$ref": "#/definitions/PatternRuleCreateObject"
               }
             }
           }
@@ -6941,7 +7031,7 @@
             "description": "An object representing a pattern.",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/PatternUpdateObject"
+              "$ref": "#/definitions/PatternRuleUpdateObject"
             }
           }
         ],
@@ -7383,7 +7473,7 @@
         }
       }
     },
-    "PatternFeatureUpdateObject": {
+    "PatternUpdateObject": {
       "description": "Object model for updating an existing Pattern feature.",
       "type": "object",
       "properties": {
@@ -7484,7 +7574,7 @@
         "name": "DayOfWeek"
       }
     },
-    "PatternFeatureCreateObject": {
+    "PatternCreateObject": {
       "description": "Object model for creating a Pattern feature.",
       "type": "object",
       "properties": {
@@ -8526,6 +8616,26 @@
         },
         {
           "$ref": "#/definitions/EntityExtractor"
+        },
+        {
+          "$ref": "#/definitions/RegexEntityExtractor"
+        },
+        {
+          "$ref": "#/definitions/PatternAnyEntityExtractor"
+        }
+      ]
+    },
+    "EntityModelInfo": {
+      "description": "An Entity Extractor model info.",
+      "type": "object",
+      "properties": {
+        "roles": {
+          "$ref": "#/definitions/EntityRoleList"
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/definitions/ModelInfo"
         }
       ]
     },
@@ -8539,7 +8649,9 @@
         "Composite Entity Extractor",
         "Closed List Entity Extractor",
         "Prebuilt Entity Extractor",
-        "Intent Classifier"
+        "Intent Classifier",
+        "Pattern.Any Entity Extractor",
+        "Regex Entity Extractor"
       ]
     },
     "HierarchicalEntityExtractor": {
@@ -8549,6 +8661,9 @@
       "allOf": [
         {
           "$ref": "#/definitions/ModelInfo"
+        },
+        {
+          "$ref": "#/definitions/EntityModelInfo"
         }
       ],
       "properties": {
@@ -8575,6 +8690,9 @@
       "allOf": [
         {
           "$ref": "#/definitions/ModelInfo"
+        },
+        {
+          "$ref": "#/definitions/EntityModelInfo"
         }
       ],
       "properties": {
@@ -8601,6 +8719,9 @@
       "allOf": [
         {
           "$ref": "#/definitions/ModelInfo"
+        },
+        {
+          "$ref": "#/definitions/EntityModelInfo"
         }
       ],
       "properties": {
@@ -8627,6 +8748,9 @@
       "allOf": [
         {
           "$ref": "#/definitions/ModelInfo"
+        },
+        {
+          "$ref": "#/definitions/EntityModelInfo"
         }
       ]
     },
@@ -8721,6 +8845,9 @@
       "allOf": [
         {
           "$ref": "#/definitions/ModelInfo"
+        },
+        {
+          "$ref": "#/definitions/EntityModelInfo"
         }
       ],
       "properties": {
@@ -9406,7 +9533,7 @@
         "explicitListItem": "item 1"
       }
     },
-    "PatternCreateObject": {
+    "PatternRuleCreateObject": {
       "description": "Object model for creating a pattern",
       "type": "object",
       "properties": {
@@ -9424,7 +9551,7 @@
         "intent": "SampleIntent"
       }
     },
-    "PatternUpdateObject": {
+    "PatternRuleUpdateObject": {
       "description": "Object model for updating a pattern.",
       "type": "object",
       "properties": {
@@ -9455,8 +9582,17 @@
       "allOf": [
         {
           "$ref": "#/definitions/ModelInfo"
+        },
+        {
+          "$ref": "#/definitions/EntityModelInfo"
         }
-      ]
+      ],
+      "properties": {
+        "regexPattern": {
+          "description": "The Regex entity pattern.",
+          "type": "string"
+        }
+      }
     },
     "RegexEntityExtractorList": {
       "description": "List of Regex Entity Extractors.",
@@ -9472,8 +9608,16 @@
       "allOf": [
         {
           "$ref": "#/definitions/ModelInfo"
+        },
+        {
+          "$ref": "#/definitions/EntityModelInfo"
         }
-      ]
+      ],
+      "properties": {
+        "explicitList": {
+          "$ref": "#/definitions/ExplicitListItemList"
+        }
+      }
     },
     "PatternAnyEntityExtractorList": {
       "description": "List of Pattern.Any Entity Extractors.",
