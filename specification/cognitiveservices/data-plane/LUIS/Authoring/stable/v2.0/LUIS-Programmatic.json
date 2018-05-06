@@ -2654,8 +2654,13 @@
           "$ref": "#/parameters/AppIdInPath"
         },
         {
-          "$ref": "#/parameters/IncludeResponseInPath"
-        }
+          "name": "includeResponse",
+          "in": "query",
+          "description": "A flag to determine whether to include the response",
+          "required": false,
+          "type": "boolean",
+          "x-ms-parameter-location": "method"
+      }
       ],
       "responses": {
         "202": {
