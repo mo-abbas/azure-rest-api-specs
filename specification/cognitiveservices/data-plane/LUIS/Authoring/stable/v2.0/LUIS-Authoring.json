@@ -1327,8 +1327,13 @@
            "$ref": "#/parameters/VersionIdInPath"
          },
          {
-           "$ref": "#/parameters/ModelIdInPath"
-         },
+            "name": "modelId",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": "The ID (GUID) of the model.",
+            "x-ms-parameter-location": "method"
+           },
          {
            "$ref": "#/parameters/SkipInPath"
          },
@@ -7655,11 +7660,6 @@
           "type": "boolean",
           "x-nullable": false
         }
-      },
-      "example": {
-        "sentimentAnalysis": true,
-        "speech": true,
-        "spellChecker": true
       }
     },
     "ExampleLabelObject": {
@@ -9791,14 +9791,6 @@
       "minimum": 0,
       "maximum": 500,
       "x-ms-parameter-location": "method"
-    },
-    "ModelIdInPath": {
-      "name": "modelId",
-      "in": "path",
-      "required": true,
-      "type": "string",
-      "description": "The ID (GUID) of the model.",
-      "x-ms-parameter-location": "method"
-     }
+    }
   }
 }
