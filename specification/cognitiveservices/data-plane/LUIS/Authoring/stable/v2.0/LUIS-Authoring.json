@@ -3259,7 +3259,7 @@
           "application/json"
         ],
         "x-ms-examples": {
-          "Successful Get Publish Application Settings request": {
+          "Successful Get Publish Settings request": {
             "$ref": "./examples/apps/SuccessfulGetPublishSettingsRequest.json"
           }
         }
@@ -3302,7 +3302,7 @@
           "application/json"
         ],
         "x-ms-examples": {
-          "Successful Update Application Settings request": {
+          "Successful Update Publish Settings request": {
             "$ref": "./examples/apps/SuccessfulUpdatePublishSettingsRequest.json"
           }
         }
